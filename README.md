@@ -1,6 +1,13 @@
+![erica: a Claude Code skill that coaches you to explain an idea so people listen](assets/social-preview.png)
+
 # erica
 
 A Claude Code skill that coaches you to explain an idea so people listen. Give it an idea and it picks a structure, writes a skeleton and script, and (optionally) draws one central diagram. Give it a draft and it scores the draft out of 20 and tells you the three fixes that matter most.
+
+[![4 structures](assets/badges/structures.svg)](skills/erica/references/playbook.md)
+[![9 beats](assets/badges/beats.svg)](skills/erica/references/playbook.md)
+[![rubric 20 points](assets/badges/rubric.svg)](skills/erica/references/playbook.md)
+[![license MIT](assets/badges/license.svg)](LICENSE)
 
 ## Credit
 
@@ -24,10 +31,36 @@ cp -R skills/erica ~/.claude/skills/
 
 Restart Claude Code, then type `/erica` or ask: "help me explain [your idea]". You can also paste a draft and ask for a review.
 
+## Two modes
+
+**Coach.** You give an idea. The skill asks for the listener, the outcome, and the format, picks a structure, checks that the idea has a core, a surprise, a name, a turn to the listener, and an exercise, then writes a skeleton and a 900 to 1,200 word script.
+
+**Review.** You paste a draft. The skill scores it against ten checks, names the weakest beat, gives at most three fixes ranked by leverage, and rewrites one example of the top fix.
+
+## Four structures
+
+The skill picks one per piece and says why. It does not mix them.
+
+![Four structures: story-vehicle, myth-bust, playbook, case breakdown](assets/structures.png)
+
+## Nine beats
+
+Each beat has one job. A draft that skips a beat scores lower.
+
+![Nine beats: scene first, puzzle, name it, everywhere, mechanism, open loop, steps, chain formula, hand back](assets/beats.png)
+
+## Review rubric
+
+Ten checks, each scored 0, 1, or 2.
+
+![Review rubric: 17 to 20 ship, 12 to 16 fix the two lowest beats, under 12 restart](assets/rubric.png)
+
 ## What is inside
 
 - `skills/erica/SKILL.md`: the workflow (coach mode, review mode, optional diagram step).
-- `skills/erica/references/playbook.md`: four structures, nine beats, delivery devices, a 20-point rubric, diagram picks, and a worked example.
+- `skills/erica/references/playbook.md`: structures, beats, delivery devices, rubric, diagram picks, and a worked example.
+- `scripts/build_assets.py`: regenerates the images and badges in `assets/`.
+- `docs/index.html`: a landing page for GitHub Pages.
 
 ## Optional: diagrams
 
