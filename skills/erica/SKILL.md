@@ -16,7 +16,7 @@ Read `references/playbook.md` before doing COACH or REVIEW work.
 3. **COACH mode.**
    a. Pre-flight. Confirm you have five things: the single core, the surprise, a short name, the "this applies to you" turn, and one on-paper exercise. If any is missing, build it before writing.
    b. Skeleton in the chosen structure, with a one-line job for each section.
-   c. Script in the user's language. Length comes from the source videos: across the 20 videos the median is about 1,500 spoken words at about 215 words per minute, and most run 5 to 7 minutes. Target 1,100 to 1,600 words in English. In other languages, time it aloud and aim for 5 to 7 minutes. A script under about 900 words is too thin: add examples and the exercise, not new ideas. Use the delivery devices in the playbook. Ask first whether the user wants the punchy delivery mode or a plain one, or state which you chose.
+   c. Script in the user's language. Length comes from the source videos: across the 20 videos the median is about 1,500 spoken words at about 215 words per minute, and most run 5 to 7 minutes. Target 1,100 to 1,600 words in English. In other languages, time it aloud and aim for 5 to 7 minutes. Count the spoken words (leave out headings and notes) before delivering. Under about 1,100 words in English is too thin: add examples and the exercise, not new ideas. Use the delivery devices in the playbook. Ask first whether the user wants the punchy delivery mode or a plain one, or state which you chose.
    d. Diagram step (below).
 4. **REVIEW mode.** Score the draft with the rubric in the playbook. Name the weakest beat. Give at most 3 fixes ranked by leverage, and show one rewritten example of the top fix. Offer the diagram if the draft has no central picture.
 5. **Output.** Short answers inline. A full script or skeleton goes to a file in the current folder. Chat gets the file path, the structure chosen, and the biggest risk.
@@ -25,7 +25,7 @@ Read `references/playbook.md` before doing COACH or REVIEW work.
 
 Good explanations carry one physical picture: an axis, a mountain, two columns, a chain of arrows, a 2x2. After the script exists:
 
-1. If an Excalidraw tool (MCP `create_view`) is available, draw the one central picture with it. If not, describe the picture in plain text or a small Mermaid diagram. Never block the work on the drawing.
+1. If an Excalidraw tool (MCP `create_view`) is available, draw the one central picture with it. If not, put a small Mermaid diagram of the picture in the script file at the point where it appears, not just a sentence about it. Never block the work on the drawing.
 2. Pick the picture from the playbook table (section 5). One diagram, 5 to 9 elements, labels of 1 to 3 words.
 3. Style: black and white. Strokes and text `#1F2328`, secondary `#757575`, fills white or `#ECECEC`. One accent color at most, only if it carries meaning.
 4. Use generic labels for anything confidential (Client A, System 1). Do not export or save anything to an online service unless the user asks.
@@ -33,7 +33,7 @@ Good explanations carry one physical picture: an axis, a mountain, two columns, 
 
 ## Guardrails
 
-- Any factual or research claim in the script must be checked against its primary source by the user before they publish. List each claim with a status (verified against a source you opened, or unverified) in a separate sources file, never inside the script. Claims about a product, plan, or price need a source you opened in this session, or they are marked unverified.
+- Any factual or research claim in the script must be checked against its primary source by the user before they publish. List each claim with a status (verified against a source you opened, or unverified) in a separate sources file, never inside the script. Claims about a product, plan, or price need a source you opened in this session. If you have web tools, open the vendor's official documentation and check them before writing the script; if you cannot, mark them unverified.
 - Use the user's own stories and examples. Do not invent anecdotes, quotes, or statistics. If the opening needs a scene and the user has none, write it as an explicit hypothetical ("imagine...") and say so, or ask for a real one.
 - Pre-empt misreading: when an idea can be abused, add one line saying what it does not mean.
 - One idea per piece. If the user has three ideas, produce three pieces.
