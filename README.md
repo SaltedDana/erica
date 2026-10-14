@@ -74,6 +74,7 @@ Story-first explanation, naming an idea, concrete scenes, and rhetorical devices
 
 - It does not check facts. Verify every research claim against its primary source before you publish.
 - The rubric and structures are a heuristic from a small sample of videos, not a tested method.
+- The script length target comes from word counts of the 20 videos I watched (median about 1,500 spoken words, 5 to 7 minutes).
 
 ## License
 

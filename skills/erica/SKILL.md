@@ -11,12 +11,12 @@ Read `references/playbook.md` before doing COACH or REVIEW work.
 
 ## Run order
 
-1. **Intake.** Ask once, and only for what is missing: the idea in one sentence, who is listening, what they should believe or do afterward, and the format (talk, post, video, pitch).
+1. **Intake.** If the user gave only the idea, ask for the missing items in one message before writing anything: who is listening, what they should believe or do afterward, and the format (talk, post, video, pitch). Do not assume them. If you cannot ask (non-interactive run), state your assumptions on the first line of the output and continue.
 2. **Pick the structure.** Match the idea to one of four structures in the playbook (Story-vehicle, Myth-bust, Playbook, Case breakdown). Name the one you chose and why, in one line.
 3. **COACH mode.**
    a. Pre-flight. Confirm you have five things: the single core, the surprise, a short name, the "this applies to you" turn, and one on-paper exercise. If any is missing, build it before writing.
    b. Skeleton in the chosen structure, with a one-line job for each section.
-   c. Script, 900 to 1,200 spoken words for 5 to 7 minutes. Use the delivery devices in the playbook. Ask first whether the user wants the punchy delivery mode or a plain one.
+   c. Script in the user's language. Length comes from the source videos: across the 20 videos the median is about 1,500 spoken words at about 215 words per minute, and most run 5 to 7 minutes. Target 1,100 to 1,600 words in English. In other languages, time it aloud and aim for 5 to 7 minutes. A script under about 900 words is too thin: add examples and the exercise, not new ideas. Use the delivery devices in the playbook. Ask first whether the user wants the punchy delivery mode or a plain one, or state which you chose.
    d. Diagram step (below).
 4. **REVIEW mode.** Score the draft with the rubric in the playbook. Name the weakest beat. Give at most 3 fixes ranked by leverage, and show one rewritten example of the top fix. Offer the diagram if the draft has no central picture.
 5. **Output.** Short answers inline. A full script or skeleton goes to a file in the current folder. Chat gets the file path, the structure chosen, and the biggest risk.
@@ -33,8 +33,8 @@ Good explanations carry one physical picture: an axis, a mountain, two columns, 
 
 ## Guardrails
 
-- Any factual or research claim in the script must be checked against its primary source by the user before they publish. Mark unchecked claims as unverified in your notes.
-- Use the user's own stories and examples. Do not invent anecdotes, quotes, or statistics.
+- Any factual or research claim in the script must be checked against its primary source by the user before they publish. List each claim with a status (verified against a source you opened, or unverified) in a separate sources file, never inside the script. Claims about a product, plan, or price need a source you opened in this session, or they are marked unverified.
+- Use the user's own stories and examples. Do not invent anecdotes, quotes, or statistics. If the opening needs a scene and the user has none, write it as an explicit hypothetical ("imagine...") and say so, or ask for a real one.
 - Pre-empt misreading: when an idea can be abused, add one line saying what it does not mean.
 - One idea per piece. If the user has three ideas, produce three pieces.
 
