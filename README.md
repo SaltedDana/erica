@@ -13,11 +13,9 @@ A Claude Code skill that coaches you to explain an idea so people listen. Give i
 
 Created by Dana Maman.
 
-I came across Erica Mallett's channel and was so impressed that I immediately built myself a skill. It works wonderfully, and here it is.
+I came across Erica Mallett's YouTube channel, Theory Of One (https://www.youtube.com/@ericamallett), and was so impressed that I built this skill right away. It works wonderfully, and here it is.
 
-This skill is built on my personal interpretation of the public YouTube videos of Erica Mallett, Theory Of One: https://www.youtube.com/@ericamallett
-
-- It is based on public information and my own reading of 20 of her videos. It is not her official method.
+- It is my personal interpretation of 20 of her public videos, not her official method.
 - It is not affiliated with her and she has not endorsed it.
 - Her scripts, transcripts, examples, and named frameworks are not reproduced here.
 - Watch her channel and learn from the source.
