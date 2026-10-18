@@ -55,16 +55,25 @@ Ten checks, each scored 0, 1, or 2.
 
 ![Review rubric: 17 to 20 ship, 12 to 16 fix the two lowest beats, under 12 restart](assets/rubric.png)
 
+## Example
+
+One real run on the question "why do AI-written posts all sound the same?" The numbers come from running the same request 8 times.
+
+![The same request run without and with context: repeated phrases in plain runs, none in context runs, but the details were invented](assets/example.png)
+
+The skill turned that test into a short video script with a diagram. See [`examples/ai-sounds-the-same`](examples/ai-sounds-the-same) for the script, the claims table, and the 8 raw outputs. The sample is small: one model, one prompt, one day.
+
 ## What is inside
 
 - `skills/erica/SKILL.md`: the workflow (coach mode, review mode, optional diagram step).
 - `skills/erica/references/playbook.md`: structures, beats, delivery devices, rubric, diagram picks, and a worked example.
+- `examples/ai-sounds-the-same/`: a saved run of the skill, with the raw outputs behind it.
 - `scripts/build_assets.py`: regenerates the images and badges in `assets/`.
 - `docs/index.html`: a landing page for GitHub Pages.
 
 ## Optional: diagrams
 
-If you have an Excalidraw MCP server connected, the skill draws one black-and-white diagram of the central picture. Without it, the skill describes the diagram in text. Nothing breaks either way.
+If you have an Excalidraw MCP server connected, the skill draws one black-and-white diagram of the central picture. Without it, the skill puts a Mermaid diagram in the script file. Nothing breaks either way.
 
 ## Background
 

@@ -178,6 +178,47 @@ body{{width:1736px;height:420px;background:{PAPER};padding:56px}}
 </body></html>"""
 
 
+def example_figure():
+    """README example: the same request run without and with context (counts from the saved raw outputs)."""
+    plain = [('"A shared knowledge base fixes that"', 5), ("a person named Sarah, never mentioned", 3), ('"walks out the door"', 3), ("ends on a question", 4)]
+    ctx = [('"A shared knowledge base fixes that"', 0), ("a person named Sarah, never mentioned", 1), ('"walks out the door"', 0), ("ends on a question", 0)]
+
+    def rows(items, total, color):
+        out = ""
+        for label, n in items:
+            out += (
+                f'<div class="r"><div class="l">{label}</div>'
+                f'<div class="track"><div class="fill" style="width:{100 * n / total}%;background:{color}"></div></div>'
+                f'<div class="v mono">{n}/{total}</div></div>'
+            )
+        return out
+
+    return f"""<html><head>{HEAD}<style>
+body{{width:1736px;height:760px;background:{PAPER};padding:56px}}
+.cap{{font-size:20px;letter-spacing:.08em;text-transform:uppercase;color:{INK_SOFT}}}
+.cols{{display:flex;gap:32px;margin-top:22px}}
+.col{{flex:1;background:#fff;border:3px solid {INK_SOFT};border-top-width:18px;padding:24px}}
+.h{{font-weight:700;font-size:30px;color:{INK_SOFT}}}
+.s{{font-size:19px;color:{INK_SOFT};margin:6px 0 20px}}
+.r{{display:grid;grid-template-columns:340px 1fr 56px;gap:14px;align-items:center;margin:14px 0}}
+.l{{font-size:21px;color:{INK_SOFT};line-height:1.25}}
+.track{{height:34px;border:3px solid {INK_SOFT};background:repeating-linear-gradient(135deg,#fff 0 9px,{SAGE} 9px 12px)}}
+.fill{{height:100%;border-right:3px solid {INK_SOFT}}}
+.v{{font-size:22px;color:{INK_SOFT};text-align:right}}
+.warn{{margin-top:26px;background:#fff;border:3px solid {INK_SOFT};border-top:18px solid {ORANGE};padding:18px 24px;font-size:26px;color:{INK_SOFT}}}
+.warn b{{font-weight:700}}
+.rule{{border-top:3px solid {INK_SOFT};margin-top:28px}}
+</style></head><body>
+<div class="cap mono">Example · the same request, run 8 times · claude-sonnet-5-5 · 2026-10-18 · one prompt, small sample</div>
+<div class="cols">
+  <div class="col" style="border-top-color:{LAV}"><div class="h">No context · 5 runs</div><div class="s mono">Write a LinkedIn post of about 90 words on why teams need a shared knowledge base.</div>{rows(plain, 5, LAV)}</div>
+  <div class="col" style="border-top-color:{SAGE}"><div class="h">Three lines of own writing and two facts · 3 runs</div><div class="s mono">Same request, with a made-up consultant's voice sample added.</div>{rows(ctx, 3, SAGE)}</div>
+</div>
+<div class="warn"><b>Context changed the voice. It did not supply the truth.</b> The details in all three posts were invented: a departed accountant, a shared drive with 41 folders, a dormant client.</div>
+<div class="rule"></div>
+</body></html>"""
+
+
 def render(name, html, w, h):
     with tempfile.NamedTemporaryFile("w", suffix=".html", delete=False) as f:
         f.write(html)
@@ -205,6 +246,7 @@ def main():
     render("beats.png", beats_figure(), 1736, 420)
     render("structures.png", structures_figure(), 1736, 380)
     render("rubric.png", rubric_figure(), 1736, 420)
+    render("example.png", example_figure(), 1736, 760)
     print("wrote assets/badges/*.svg and assets/*.png")
 
 
