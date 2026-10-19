@@ -2,8 +2,6 @@
 
 # erica
 
-Last updated: 2026-10-20 00:11
-
 A Claude Code skill (an add-on that gives Claude a new ability) that coaches you to explain an idea so people listen. Give it an idea and it picks a structure, writes a skeleton and script, and (optionally) draws one central diagram. Give it a draft and it scores the draft out of 20 and tells you the three fixes that matter most.
 
 [![4 structures](assets/badges/structures.svg)](skills/erica/references/playbook.md)
@@ -42,7 +40,7 @@ The skill asks three questions first: who is listening, what they should underst
 
 ## Two modes
 
-**Coach.** You give an idea. The skill asks for the listener, the outcome, and the format. It finds the insight first (what you noticed, the claim, an example the listener can inspect), picks a structure, checks that the idea has a core, a surprise, a name, a turn to the listener, and an exercise, then writes a skeleton and a script. A final pass marks every sentence that any other speaker could say about the topic and replaces it with a specific detail or cuts it.
+**Coach.** You give an idea. The skill asks who listens, what they should do afterward, and the format. It finds the insight first, picks a structure, writes a skeleton and a script, and replaces every sentence any other speaker could say with a specific detail.
 
 **Review.** You paste a draft. The skill scores it against ten checks, names the weakest beat, gives at most three fixes ranked by leverage, and rewrites one example of the top fix.
 

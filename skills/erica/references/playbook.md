@@ -1,7 +1,5 @@
 # Playbook
 
-Last updated: 2026-10-19 09:43
-
 ## 1. Pick the structure
 
 | Idea type | Structure | Spine |
@@ -20,7 +18,7 @@ Before the beats, the insight: a noticed oddity ("that's weird"), one anchor exa
 1. **Scene first.** A concrete, dated, physical scene, or an odd question. The concept comes after.
 2. **Puzzle.** The scene breaks an expectation. Ask the question the listener is already asking.
 3. **Name it, define it in one sentence.** A short name, then "X is when...". The name earns its place by mapping parts of the idea, not by sounding good.
-4. **Everywhere.** 3 to 6 fast examples from unrelated fields. Then tell the listener they will notice it from now on.
+4. **Everywhere.** 3 to 6 fast examples from unrelated fields. Then tell the listener they will notice it from now on. Use real examples. If you have none, label them as imagined.
 5. **Mechanism.** One reason it works, from how people or groups behave. One paragraph, plain words. It explains the real relationship. It does not restate the metaphor as if the metaphor were the cause.
 6. **Open loop.** Promise the how-to early and delay it ("in a second", "more on that later").
 7. **Steps and the paper exercise.** 3 to 6 steps. One exercise the listener can do on paper in five minutes.
@@ -45,8 +43,7 @@ Offer these as an optional punchy mode. Use two or three on purpose, not all at 
 - **Scope line.** When the topic is big, narrow it out loud ("today I am looking at this through one lens").
 - **Credibility on demand.** Two sentences of "why listen to me" only at the point the listener would doubt. Not at the start.
 - **Self-caught example.** Show yourself failing at the thing. It proves you live it.
-- **Specific over general.** A number, a date, a small physical detail. Test: if another speaker could say the sentence about the same topic, it is not specific yet. Replace it or cut it.
-- **Metaphor check.** What maps to what. What the listener might wrongly infer. Does the explanation stand without it. A metaphor illustrates, the mechanism explains.
+- **Specific over general.** A number, a date, a small physical detail. Vague scenes do not stick.
 - **Warm bluntness and one joke per beat.** Never stack a joke on the key line.
 - **Sign-off.** A mission line and a question for the listener.
 
@@ -105,15 +102,3 @@ Idea: "technical debt slows teams down."
 - Chain formula: shortcut leads to clutter, clutter leads to slow starts, slow starts lead to more shortcuts.
 - Exercise: list the five shortcuts you took this month and mark which one you will pay back this week.
 - Picture: a chain of arrows (shortcut, clutter, slow start, shortcut) drawn as a loop.
-
-## 7. Regression test: "Why AI sounds like AI"
-
-Run the skill on this idea with these intake answers: professionals who use AI at work, talk of 5 to 7 minutes, they understand the cause and act on it. A passing script:
-- Shows at least one inspectable sample of AI-sounding text and points at what makes it interchangeable.
-- Keeps a named concept and a familiar-story vehicle, with the name mapping parts of the idea.
-- Does not claim the model always picks the most likely word, and does not call generic style the inevitable result of next-word prediction alone.
-- Does not imply that rare wording is automatically more authentic.
-- Gives one concrete edit the listener can do on paper, shown on the earlier example.
-- Contains no invented personal story. A missing real story is asked for.
-- Passes the "could another speaker say this" pass on every sentence.
-A script that is more polished but no more specific or accurate fails.
