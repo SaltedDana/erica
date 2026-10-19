@@ -20,7 +20,7 @@ Before the beats, the insight: a noticed oddity ("that's weird"), one anchor exa
 3. **Name it, define it in one sentence.** A short name, then "X is when...". The name earns its place by mapping parts of the idea, not by sounding good.
 4. **Everywhere.** 3 to 6 fast examples from unrelated fields. Then tell the listener they will notice it from now on. Use real examples. If you have none, label them as imagined.
 5. **Mechanism.** One reason it works, from how people or groups behave. One paragraph, plain words. It explains the real relationship. It does not restate the metaphor as if the metaphor were the cause.
-6. **Open loop.** Promise the how-to early and delay it ("in a second", "more on that later").
+6. **Open loop.** Promise the how-to early and delay it ("in a second", "more on that later"). Close every loop you open before the end, and do not make the listener wait longer than needed for what you teased.
 7. **Steps and the paper exercise.** 3 to 6 steps. One exercise the listener can do on paper in five minutes.
 8. **Chain formula.** One repeatable line: A leads to B leads to C. It is a memory line, not a proof. Write it as a line to remember, not as a claim about how something provably works.
 9. **Hand back.** Ask the listener to apply it to their own life. Short sign-off. No recap.
@@ -42,6 +42,7 @@ Offer these as an optional punchy mode. Use two or three on purpose, not all at 
 - **Pre-empt the misread.** One line on what the idea does not mean.
 - **Scope line.** When the topic is big, narrow it out loud ("today I am looking at this through one lens").
 - **Credibility on demand.** Two sentences of "why listen to me" only at the point the listener would doubt. Not at the start.
+- **Personal tidbit.** Every few minutes, one short real story or opinion of the speaker. Never invented.
 - **Self-caught example.** Show yourself failing at the thing. It proves you live it.
 - **Specific over general.** A number, a date, a small physical detail. Vague scenes do not stick.
 - **Warm bluntness and one joke per beat.** Never stack a joke on the key line.

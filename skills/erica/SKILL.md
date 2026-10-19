@@ -12,8 +12,8 @@ Read `references/playbook.md` before any work.
 ## Coach mode
 
 1. **Intake.** If anything is missing, ask in one message: who listens, what they should understand or do afterward, the format, the length. Non-interactive run: state your assumptions on the first line and continue.
-2. **Insight.** Write a short brief: the observation (what odd thing was noticed), the core claim, the tension (what the obvious explanation misses), one example the listener can inspect, the payoff. No observation yet: ask for one.
-3. **Structure.** Choose one of the four in the playbook. Say which and why, in one line. The user's own real story can serve as the scene.
+2. **Insight.** Write a short brief: the observation (what odd thing was noticed), the core claim, the tension (what the obvious explanation misses), the belief underneath it and the example or theme the audience already cares about, one example the listener can inspect, the payoff. No observation yet: ask for one.
+3. **Structure and title.** Choose one of the four in the playbook. Say which and why, in one line. Set a working title before writing the script: an effect, psychology or method that promises an outcome. The user's own real story can serve as the scene.
 4. **Pre-flight.** Have all six before writing: the core, the surprise, a short name that maps parts of the idea, the "this applies to you" turn, one exercise on paper, the example from step 2. If one is missing, build it.
 5. **Skeleton.** One line per section: its job.
 6. **Metaphor check.** What maps to what. What the listener might wrongly infer. Does the explanation stand without it. The mechanism beat explains the real relationship. It does not restate the metaphor as fact.
