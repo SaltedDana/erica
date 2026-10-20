@@ -1,11 +1,11 @@
 ---
 name: erica
-description: Coaches an idea into a script people listen to, using patterns from Erica Mallett's Theory Of One videos. Use for "/erica", "help me explain X", "make this explanation land", "why won't people listen", or a pasted draft to sharpen. Coach mode writes the script. Review mode scores a draft out of 20.
+description: Coaches an idea into a script people listen to, inspired by Erica Mallett's Theory Of One videos. Use for "/erica", "help me explain X", "make this explanation land", "why won't people listen", or a pasted draft to sharpen. Coach mode writes the script. Review mode scores a draft out of 20.
 ---
 
 # Erica: explain so they listen
 
-An independent interpretation of 20 of Erica Mallett's public videos (https://www.youtube.com/@ericamallett). Not her official method, not affiliated, not endorsed. Credit is in the README.
+Inspired by 20 of Erica Mallett's public videos (https://www.youtube.com/@ericamallett) and two long interviews with her. My own interpretation, plus my own quality rules. Not her official method, not affiliated, not endorsed. Credit is in the README.
 
 Read `references/playbook.md` before any work.
 

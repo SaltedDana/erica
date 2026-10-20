@@ -15,7 +15,7 @@ Created by Dana Maman.
 
 I came across Erica Mallett's YouTube channel, Theory Of One (https://www.youtube.com/@ericamallett), and was so impressed that I built this skill right away. It works wonderfully, and here it is.
 
-- It is my personal interpretation of 20 of her public videos, not her official method.
+- It is inspired by 20 of her public videos and two long interviews with her. It is my own interpretation plus my own quality rules, not her official method.
 - It is not affiliated with her and she has not endorsed it.
 - Her scripts, transcripts, examples, and named frameworks are not reproduced here.
 - Watch her channel and learn from the source.
