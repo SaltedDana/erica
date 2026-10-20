@@ -2,6 +2,10 @@
 
 # erica
 
+Last updated: 2026-10-20 14:17
+
+Website: https://salteddana.github.io/erica/
+
 A Claude Code skill (an add-on that gives Claude a new ability) that coaches you to explain an idea so people listen. Give it an idea and it picks a structure, writes a skeleton and script, and (optionally) draws one central diagram. Give it a draft and it scores the draft out of 20 and tells you the three fixes that matter most.
 
 [![4 structures](assets/badges/structures.svg)](skills/erica/references/playbook.md)
